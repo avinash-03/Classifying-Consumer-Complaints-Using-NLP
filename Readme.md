@@ -87,14 +87,22 @@ We tried various approaches to understand the feature selection like decision Tr
 # Machine Learning Model Creation
 With the data exploration and engineering stage now complete, I move on towards training my Machine Learning model.
 1. Logistic Regression
+    
+    
     ![image.png](images/image8.png)
 2. Mulitnomial Naive Bayes:
+    
+    
     ![image-2.png](images/image9.png)
 
 3. Decision Tree
+    
+    
     ![image-3.png](images/image10.png)
     
 4. Random Forest
+   
+   
     ![image-4.png](images/image11.png)
     
 ## Assessing Model Performance
