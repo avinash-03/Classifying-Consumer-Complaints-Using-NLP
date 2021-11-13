@@ -49,7 +49,7 @@ After data cleaning, the dataset consisted of around 162,400 consumer submission
                                                                     Figure 1– Customer complaints classification
                                                                     
 These words are all so commonly occuring words which you could find just anywhere else.Therefore we must find some way to preprocess our dataset first to strip out all these commonly occurring words which do not bring much to the table. 
-![image-2.png](images/image1.png)
+![image-2.png](images/image1.jpg)
 
 ## Word count
 ![image-3.png](images/image3.png) | ![image-4.png](images/image4.png)
