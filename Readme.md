@@ -1,4 +1,4 @@
-![title.png](images/title.png)
+![title.png](images/title.png?style=centerme)
 
 
 <h1>Table of Contents<span class="tocSkip"></span></h1>
