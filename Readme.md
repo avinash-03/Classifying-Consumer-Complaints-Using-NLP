@@ -7,7 +7,7 @@
 #  Introduction
 The consumer files complaint when they are unsatisfied by the service or product offered by the company. they seek action against on the issue from the companies. Companies do sometimes solve issues of the consumer but in many cases consumer don’t get the expected results. in such cases financial mediators comes into play to solve the disputes between customer and financial companies
 
-# Problem Statement:
+# Problem Statement
 To classify consumer complaints of financial products using NLP techniques and classification models
 Business case:
     An NLP model would make the classification of complaints and their routing to the appropriate teams more efficient than manually tagged complaints.
@@ -56,7 +56,7 @@ These words are all so commonly occuring words which you could find just anywher
 ![image-5.png](images/image5.png) | ![image-6.png](images/image6.png)
 ![image-7.png](images/image7.png)
 
-## Word Clouds to visualise:  
+## Word Clouds to visualise  
 
 each author's work One very handy visualization tool for a data scientist when it comes to any sort of natural language processing is plotting "Word Cloud". A word cloud (as the name suggests) is an image that is made up of a mixture of distinct words which may make up a text or book and where the size of each word is proportional to its word frequency in that text (number of times the word appears). Here instead of dealing with an actual book or text, our words can simply be taken from the column "text"     
 Exploratory Data Analysis (EDA) and Word clouds -   
@@ -103,7 +103,7 @@ With the data exploration and engineering stage now complete, I move on towards 
 
 This is the final step of my Machine Learning project, which is to test the performance of my ML models. This step is crucial since I can gauge the accuracy of my ML models on unseen customer data. To determine the performance of my ML model, I used the test data and calculated the accuracy score as well as the confusion matrix for the predicted labels. The accuracy score for the Random Forest model was 92%. Out of 320000 a total of 298000 labels were accurately predicted, also the recall and precision for all classes is high. I can see that the recall of the model is about 93% meaning the model correctly identified about 93% of the customers that were retained and missed about 7%.
 
-# Conclusion:
+# Conclusion
 The predictions from the ML model can help in understanding the customers who might leave and their service. The accuracy score for the Random Forest model was 92%. Out of 320000 a total of 298000 labels were accurately predicted
 
 # Future Scope
