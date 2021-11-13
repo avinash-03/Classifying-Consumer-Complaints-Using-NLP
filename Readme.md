@@ -1,5 +1,8 @@
+![title.png](images/title.png)
+
+
 <h1>Table of Contents<span class="tocSkip"></span></h1>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Introduction" data-toc-modified-id="Introduction-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introduction</a></span></li><li><span><a href="#Problem-Statement:" data-toc-modified-id="Problem-Statement:-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Problem Statement:</a></span></li><li><span><a href="#Work-Flow" data-toc-modified-id="Work-Flow-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Work Flow<a name="work"></a></a></span></li><li><span><a href="#Data-Description" data-toc-modified-id="Data-Description-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Data Description<a name="datadesc"></a></a></span></li><li><span><a href="#Data-Visualization-" data-toc-modified-id="Data-Visualization--5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Data Visualization <a id="datavisu"></a></a></span><ul class="toc-item"><li><span><a href="#Word-count" data-toc-modified-id="Word-count-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Word count</a></span></li><li><span><a href="#Word-Clouds-to-visualise:" data-toc-modified-id="Word-Clouds-to-visualise:-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Word Clouds to visualise:</a></span></li></ul></li><li><span><a href="#Data-Preprocessing" data-toc-modified-id="Data-Preprocessing-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Data Preprocessing<a name="dataPre"></a></a></span></li><li><span><a href="#Feature-Selections" data-toc-modified-id="Feature-Selections-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>Feature Selections</a></span></li><li><span><a href="#Machine-Learning-Model-Creation" data-toc-modified-id="Machine-Learning-Model-Creation-8"><span class="toc-item-num">8&nbsp;&nbsp;</span>Machine Learning Model Creation</a></span><ul class="toc-item"><li><span><a href="#Assessing-Model-Performance" data-toc-modified-id="Assessing-Model-Performance-8.1"><span class="toc-item-num">8.1&nbsp;&nbsp;</span>Assessing Model Performance</a></span></li></ul></li><li><span><a href="#Conclusion:" data-toc-modified-id="Conclusion:-9"><span class="toc-item-num">9&nbsp;&nbsp;</span>Conclusion:</a></span></li><li><span><a href="#Future-Scope" data-toc-modified-id="Future-Scope-10"><span class="toc-item-num">10&nbsp;&nbsp;</span>Future Scope</a></span></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Introduction" data-toc-modified-id="Introduction-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introduction</a></span></li><li><span><a href="#Problem-Statement" data-toc-modified-id="Problem-Statement-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Problem Statement</a></span></li><li><span><a href="#Work-Flow" data-toc-modified-id="Work-Flow-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Work Flow<a name="work"></a></a></span></li><li><span><a href="#Data-Description" data-toc-modified-id="Data-Description-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Data Description<a name="datadesc"></a></a></span></li><li><span><a href="#Data-Visualization-" data-toc-modified-id="Data-Visualization--5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Data Visualization <a id="datavisu"></a></a></span><ul class="toc-item"><li><span><a href="#Word-count" data-toc-modified-id="Word-count-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Word count</a></span></li><li><span><a href="#Word-Clouds-to-visualise" data-toc-modified-id="Word-Clouds-to-visualise-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Word Clouds to visualise</a></span></li></ul></li><li><span><a href="#Data-Preprocessing" data-toc-modified-id="Data-Preprocessing-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Data Preprocessing<a name="dataPre"></a></a></span></li><li><span><a href="#Feature-Selections" data-toc-modified-id="Feature-Selections-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>Feature Selections</a></span></li><li><span><a href="#Machine-Learning-Model-Creation" data-toc-modified-id="Machine-Learning-Model-Creation-8"><span class="toc-item-num">8&nbsp;&nbsp;</span>Machine Learning Model Creation</a></span><ul class="toc-item"><li><span><a href="#Assessing-Model-Performance" data-toc-modified-id="Assessing-Model-Performance-8.1"><span class="toc-item-num">8.1&nbsp;&nbsp;</span>Assessing Model Performance</a></span></li></ul></li><li><span><a href="#Conclusion" data-toc-modified-id="Conclusion-9"><span class="toc-item-num">9&nbsp;&nbsp;</span>Conclusion</a></span></li><li><span><a href="#Future-Scope" data-toc-modified-id="Future-Scope-10"><span class="toc-item-num">10&nbsp;&nbsp;</span>Future Scope</a></span></li></ul></div>
 
 #  Introduction
 The consumer files complaint when they are unsatisfied by the service or product offered by the company. they seek action against on the issue from the companies. Companies do sometimes solve issues of the consumer but in many cases consumer don’t get the expected results. in such cases financial mediators comes into play to solve the disputes between customer and financial companies
@@ -41,17 +44,17 @@ The case study in the project is a telecommunications company. We have collected
 
 # Data Visualization <a id="datavisu"></a>
 After data cleaning, the dataset consisted of around 162,400 consumer submissions containing narratives. The dataset was still imbalanced, with 56% in the credit reporting class, and the remainder roughly equally distributed (between 8% and 14%) among the remaining classes. This Plot shows that data is not balanced which may cause low accuracy to the minority classes so we need to make data balanced
-![image.png](attachment:image.png)
+![image.png](images/image.png)
 
                                                                     Figure 1– Customer complaints classification
                                                                     
 These words are all so commonly occuring words which you could find just anywhere else.Therefore we must find some way to preprocess our dataset first to strip out all these commonly occurring words which do not bring much to the table. 
-![image-2.png](attachment:image-2.png)
+![image-2.png](images/image1.png)
 
 ## Word count
-![image-3.png](attachment:image-3.png) | ![image-4.png](attachment:image-4.png)
-![image-5.png](attachment:image-5.png) | ![image-6.png](attachment:image-6.png)
-![image-7.png](attachment:image-7.png)
+![image-3.png](images/image3.png) | ![image-4.png](images/image4.png)
+![image-5.png](images/image5.png) | ![image-6.png](images/image6.png)
+![image-7.png](images/image7.png)
 
 ## Word Clouds to visualise:  
 
@@ -83,19 +86,19 @@ We tried various approaches to understand the feature selection like decision Tr
 
 # Machine Learning Model Creation
 With the data exploration and engineering stage now complete, I move on towards training my Machine Learning model.
-1. Logistic Regression:
-    ![image.png](attachment:image.png)
+1. Logistic Regression
+    ![image.png](images/image8.png)
 2. Mulitnomial Naive Bayes:
-    ![image-2.png](attachment:image-2.png)
+    ![image-2.png](images/image9.png)
 
 3. Decision Tree
-    ![image-3.png](attachment:image-3.png)
+    ![image-3.png](images/image10.png)
     
 4. Random Forest
-    ![image-4.png](attachment:image-4.png)
+    ![image-4.png](images/image11.png)
     
 ## Assessing Model Performance
-![image-5.png](attachment:image-5.png)
+![image-5.png](images/image12.png)
 
 
 This is the final step of my Machine Learning project, which is to test the performance of my ML models. This step is crucial since I can gauge the accuracy of my ML models on unseen customer data. To determine the performance of my ML model, I used the test data and calculated the accuracy score as well as the confusion matrix for the predicted labels. The accuracy score for the Random Forest model was 92%. Out of 320000 a total of 298000 labels were accurately predicted, also the recall and precision for all classes is high. I can see that the recall of the model is about 93% meaning the model correctly identified about 93% of the customers that were retained and missed about 7%.
